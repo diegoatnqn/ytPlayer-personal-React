@@ -1,0 +1,35 @@
+.myNav{
+	background-color:gray;
+	color:white;
+	height:3rem;
+	text-align:center
+}
+.myNav p{
+	margin:0;
+}
+.container {
+	display: flex;
+}
+.videoPlayer{
+	width:50%;
+	height:65vh;
+	margin:1rem;
+	display:flex;
+
+}
+.relatedVideos{
+	display:inline-block;
+	max-width:45%
+}
+.thumbnail {
+	margin: .5rem;
+	max-width:140px;
+	display:inline-block
+}
+.thumbnail img{
+	max-width:inherit;
+}
+.thumbnail:hover{
+	transform:scale(1.05);
+	cursor:pointer
+}
