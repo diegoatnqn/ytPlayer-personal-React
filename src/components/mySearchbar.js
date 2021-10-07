@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import axios from 'axios';
-import style from '../Styles/EstiloBarra.module.css';
+/*import style from '../Styles/EstiloBarra.module.css';*/
 
 class SearchBar extends React.Component {
     key = "AIzaSyCSOPDrTyaq2rDHaQb6YPxnfFZwBWFqfW4";

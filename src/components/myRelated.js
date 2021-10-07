@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React from 'react';
 import style from '../Styles/Estilos.module.css';
 
 const MyRelated = (props) => {
@@ -19,7 +19,7 @@ const MyRelated = (props) => {
        let visualizador=misVideos.map((item) => {
            return (
                <div className={style.thumbnail} onClick={() => props.nuevoFeatured(item.videoId)} >
-                   <img src={item.thumbnail} />
+                   <img src={item.thumbnail} alt="youtube videos thumbnail"/>
                 <p>{item.title}</p>
             </div>)
        })

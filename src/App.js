@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import axios from 'axios';
 import './App.css';
 import Header from './components/Header'
 import MyPlayer from './components/myPlayer';
 import MyRelated from './components/myRelated';
-import SearchBar from './components/mySearchbar';
 import styleMain from './Styles/Estilos.module.css';
 
 class App extends React.Component {
